@@ -25,16 +25,3 @@ The goal of this portfolio is to present my work in a **clear, organized, and pr
 - **Design:** Responsive layout using CSS  
 
 ---
-
-## 📂 Project Structure
-
-```text
-/
-├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
-├── assets/
-│   └── images/
-└── README.md
