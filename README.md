@@ -1,27 +1,16 @@
-# 🌐 Personal Portfolio Website
+# React + Vite
 
-This repository contains the **source code of my personal portfolio website**, built to showcase my skills, projects, and academic journey as an **AI & Data Science engineering student**.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-The portfolio is designed to be simple, responsive, and easy to navigate, highlighting both technical abilities and practical project work.
+Currently, two official plugins are available:
 
----
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 📌 About the Portfolio
+## React Compiler
 
-The website includes:
-- An **About Me** section with academic background and interests  
-- A **Skills** section highlighting technical tools and technologies  
-- A **Projects** section showcasing academic and personal projects  
-- A **Contact** section for professional connections  
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-The goal of this portfolio is to present my work in a **clear, organized, and professional manner**.
+## Expanding the ESLint configuration
 
----
-
-## 🛠️ Tech Stack Used
-
-- **Frontend:** HTML, CSS, JavaScript  
-- **Version Control:** Git & GitHub  
-- **Design:** Responsive layout using CSS  
-
----
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
